@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
 
 .App-logo {
@@ -35,4 +36,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  background-color: #9b8888;
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+
+
+}
+.firstName{
+  border: 1px solid black;
+  width: 30%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #e8dfdf;
+  color: rgb(112, 127, 140);
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+.password {
+  border: 1px solid black;
+  width: 30%;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #e8dfdf;
+  color: rgb(112, 127, 140);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
